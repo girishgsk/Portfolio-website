@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+}
+header {
+  /* background: #fff; */
+  padding: 10px 0; /* border-bottom: 1px
+    solid #aba9a9; */
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.bar {
+  height: 3px;
+  width: 25px;
+  background-color: #333;
+  margin: 4px 0;
+}
+.main-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 20px;
+  height: 100vh;
+  background-color: rgb(238, 232, 223);
+}
+.intro-text {
+  max-width: 600px;
+}
+.intro-text h1 {
+  font-size: 2.6em;
+  margin: 0;
+  line-height: 1.2;
+}
+.intro-text .highlight {
+  color: #ff9800;
+}
+.intro-text p {
+  font-size: 1.2em;
+  color: #333;
+}
+#btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background 0.3s;
+}
+#btn:hover {
+  background: #0056b3;
+}
+.social-icons {
+  margin-top: 20px;
+}
+.social-icons a {
+  margin-right: 10px;
+}
+#fb_image {
+  border-radius: 90px;
+}
+.social-icons img {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+.intro-image img {
+  width: 300px;
+  height: 265px;
+  border-radius: 90%;
+  background: #ff9800;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    border-top: 1px solid #ddd;
+  }
+  .navbar-toggle {
+    display: flex;
+  }
+  .main-section {
+    flex-direction: column;
+    text-align: center; /* justify-content: center; */
+    height: 1200px;
+  }
+  .social-icons img {
+    height: 30px;
+    width: 30px;
+    margin: 2px;
+  }
+  .social-icons {
+    margin-top: 30px;
+  }
+  .social-icons a {
+    margin: 5px;
+  }
+  .intro-image img {
+    margin-top: 50px;
+    width: 250px;
+    margin-bottom: 50px;
+  }
+}

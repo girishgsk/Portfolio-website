@@ -1,0 +1,102 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Girish Kumbhar about</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/home.css">
+  </head>
+  {{>navbar}}
+  <body>
+    <div id="home" class="main-section">
+      <div class="intro-text">
+        <h1>
+          Hi There,<br />
+          I'm Girish
+          <span class="highlight">Kumbhar</span>
+        </h1>
+        <p>
+          I Am a
+          <span class="highlight">MERN</span>
+          Stack Web Devel<span class="highlight">op</span>er
+        </p>
+        <p>
+          I am a Full-Stack developer based in Pune, India.<br />
+          Have done my Specialisation in Computer Science undergraduate from
+          SPPU.
+          <br />
+          Very passionate about improving my coding skills , developing
+          applications & websites.
+          <br />I have build WebApps and Websites using MERN Stack. Working for
+          myself to improve my skills.
+        </p>
+        <p></p>
+        <a href="https://drive.google.com/file/d/13EWIBgcK6MU6Z3W35zO3HSwydxfhJn_B/view?usp=drivesdk" target="_blank" id="btn">Resume
+          <i class="fa-solid fa-square-arrow-up-right"></i></a>
+        <div class="social-icons">
+          <a
+            href="https://www.linkedin.com/in/girish-kumbhar-78165b20a/"
+            target="_blank"
+          ><img
+              src="/images/circle-linkedin-512.webp"
+              alt="LinkedIn"
+            /></a>
+          <a href="https://github.com/girishgsk" target="_blank"><img
+              src="/images/Github.png"
+              alt="GitHub"
+            /></a>
+          <a
+            href="https://www.facebook.com/girish.kumbhar.376"
+            target="_blank"
+          ><img id="fb_image" src="images/facebook.jpg" alt="facebook" /></a>
+
+          <a href="https://telegram.org/" target="_blank"><img id="fb_image"
+              src="/images/telegram.png"
+              alt="Telegram"
+            /></a>
+          <a
+            href="https://www.instagram.com/girish_gsk?utm_source=qr&igsh=MWMwOTlsZnA0bndoMQ=="
+            target="_blank"
+          ><img
+              src="/images/instagram.jpg"
+              alt="Instagram"
+            /></a>
+        </div>
+      </div>
+         
+      <div class="intro-image">
+        <img
+          src="/images/profile_pic.jpg"
+          alt="Girish kumbhar"
+        />
+      </div>
+    </div>
+    {{>footer}}
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () { const
+      mobileMenu = document.getElementById("mobile-menu"); const navbarLinks =
+      document.querySelector(".navbar-links");
+      mobileMenu.addEventListener("click", () => {
+      navbarLinks.classList.toggle("active"); }); });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
