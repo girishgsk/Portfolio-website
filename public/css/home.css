@@ -58,6 +58,20 @@ header {
 #btn:hover {
   background: #0056b3;
 }
+
+#skill_button {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+  background-color: rgb(238, 232, 223);
+}
+.btn_skill_home {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
 .social-icons {
   margin-top: 20px;
 }
