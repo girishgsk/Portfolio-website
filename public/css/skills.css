@@ -82,3 +82,10 @@ h3 {
 #btn:hover {
   background: #0056b3;
 }
+
+@media (max-width: 350px) {
+  .col {
+    margin-left: 20px;
+  }
+}
+
